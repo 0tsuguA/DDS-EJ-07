@@ -11,5 +11,5 @@ $i=1;
 while ($i <= 20) {
     $resultado=3*$i; 
     echo ' 3*'. $i. '= '. $resultado. '<hr>' ;
-    echo $i++;
+    $i++;
 }
